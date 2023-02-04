@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import { Box, Text, Transition } from '@mantine/core';
-import Header from '@/components/Header';
 import { useEffect, useState } from 'react';
-import Projects from '@/components/Projects';
 import Navbar from '@/components/Header/Navbar';
 import { useMediaQuery } from '@mantine/hooks';
 
@@ -71,11 +69,11 @@ export default function Home() {
 										About me.
 									</Text>
 									<Text>
-										Hi, I'm Viktor, 23 years old and currently live in Gotland, Sweden. I have had an interest in coding
-										since high school, but it was after I realized that my university studies in business economy was
-										not something I wanted to work with, that I decided to change path and focus more on my interest and
-										learn more about coding. I love how I always learn something new every day working on projects, the
-										process behind it with the problem solving, and the satisfaction when something finally works.
+										Hi, I&apos;m Viktor, 23 years old and currently live in Gotland, Sweden. I have had an interest in
+										coding since high school, but it was after I realized that my university studies in business economy
+										was not something I wanted to work with, that I decided to change path and focus more on my interest
+										and learn more about coding. I love how I always learn something new every day working on projects,
+										the process behind it with the problem solving, and the satisfaction when something finally works.
 									</Text>
 									<Text>
 										I have always had a big interest in tech and enjoy spending my time at the computer. Playing various

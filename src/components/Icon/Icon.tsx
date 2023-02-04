@@ -1,4 +1,4 @@
-import { MantineThemeColors, Text } from '@mantine/core';
+import { Text } from '@mantine/core';
 
 const Icon = ({ icon, size, color }: { icon: string; size?: string; color?: string }) => {
 	const iconClass = `ti ti-${icon}`;

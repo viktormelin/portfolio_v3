@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Box, MediaQuery, Transition } from '@mantine/core';
+import { Box, Transition } from '@mantine/core';
 
 import Header from '@/components/Header';
 import { useEffect, useState } from 'react';

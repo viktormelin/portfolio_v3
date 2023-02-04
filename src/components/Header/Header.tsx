@@ -1,4 +1,4 @@
-import { Box, MediaQuery, Text } from '@mantine/core';
+import { Box, Text } from '@mantine/core';
 import Navbar from './Navbar';
 import { useMediaQuery } from '@mantine/hooks';
 
@@ -33,7 +33,7 @@ const Header = () => {
 				>
 					Hello.
 				</Text>
-				<Text>I'm Viktor, a frontend developer in the making, currently studying at Medieinstitutet.</Text>
+				<Text>I&apos;m Viktor, a frontend developer in the making, currently studying at Medieinstitutet.</Text>
 				<Text>
 					Connect with me on{' '}
 					<Text

@@ -1,4 +1,4 @@
-import { Badge, Box, Button, Skeleton, Text } from '@mantine/core';
+import { Badge, Box, Button, Text } from '@mantine/core';
 import projects from '@/store/projects';
 import { useMediaQuery } from '@mantine/hooks';
 
@@ -16,9 +16,10 @@ const Projects = () => {
 			{projects &&
 				projects.map((item, index) => (
 					<Box
+						key={index}
 						sx={(theme) => ({
 							height: '15rem',
-							background: `url(${item.image})` ?? theme.colors.dark[8],
+							background: item.image ? `url(${item.image})` : theme.colors.dark[8],
 							borderRadius: '0.25rem',
 							transition: 'all 0.2s ease',
 							padding: '1rem',
@@ -74,8 +75,8 @@ const Projects = () => {
 								flexWrap: 'wrap',
 							}}
 						>
-							{item.stack.map((stack) => (
-								<Badge size={desktop ? 'md' : 'xs'} variant='filled' color='dark'>
+							{item.stack.map((stack, index) => (
+								<Badge key={index} size={desktop ? 'md' : 'xs'} variant='filled' color='dark'>
 									{stack}
 								</Badge>
 							))}

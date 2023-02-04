@@ -1,7 +1,4 @@
-import Head from 'next/head';
-import { Inter } from '@next/font/google';
-import styles from '@/styles/Home.module.css';
-import { Box, Text, Textarea, Image, Transition, MediaQuery, Burger, Drawer } from '@mantine/core';
+import { Box, Text, Transition, Burger, Drawer } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { useState } from 'react';
 import Icon from '@/components/Icon';
