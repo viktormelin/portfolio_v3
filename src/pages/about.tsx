@@ -43,18 +43,13 @@ export default function Home() {
 					}}
 				>
 					<Navbar />
-					<Box
-						component='section'
-						sx={{
-							fontSize: '1.1rem',
-						}}
-					>
+					<Box component='section'>
 						<Transition mounted={!isLoading} transition='fade' duration={1000} timingFunction='ease'>
 							{(styles) => (
 								<Box
 									style={styles}
 									sx={{
-										fontSize: '1.1rem',
+										fontSize: desktop ? '1.1rem' : '1rem',
 									}}
 								>
 									<Text

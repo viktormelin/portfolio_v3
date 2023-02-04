@@ -27,7 +27,8 @@ export default function Home() {
 			<Box
 				component='main'
 				sx={{
-					minHeight: '100vh',
+					minHeight: desktop ? 'unset' : '100vh',
+					height: desktop ? '100vh' : 'unset',
 					margin: '0 auto',
 					maxWidth: '1200px',
 					display: 'flex',
