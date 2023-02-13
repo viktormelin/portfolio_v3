@@ -20,6 +20,8 @@ const Projects = () => {
 						sx={(theme) => ({
 							height: '15rem',
 							background: item.image ? `url(${item.image})` : theme.colors.dark[8],
+							backgroundPosition: 'center',
+							backgroundSize: 'cover',
 							borderRadius: '0.25rem',
 							transition: 'all 0.2s ease',
 							padding: '1rem',
