@@ -94,8 +94,9 @@ const Navbar = () => {
 										color: theme.colors.blue[5],
 									},
 								})}
+								target='_blank'
 								component='a'
-								href='https://www.linkedin.com/in/viktormelin'
+								href='/cv_viktormellin.pdf'
 							>
 								My CV
 							</Text>
@@ -114,9 +115,9 @@ const Navbar = () => {
 									},
 								})}
 								component='a'
-								href='mailto:hello@viktormelin.com'
+								href='mailto:me@viktormelin.com'
 							>
-								hello@viktormelin.com
+								me@viktormelin.com
 							</Text>
 						</Box>
 					</Drawer>
@@ -169,8 +170,9 @@ const Navbar = () => {
 									color: theme.colors.blue[5],
 								},
 							})}
+							target='_blank'
 							component='a'
-							href='https://www.linkedin.com/in/viktormelin'
+							href='/cv_viktormellin.pdf'
 						>
 							My CV
 						</Text>
@@ -187,7 +189,7 @@ const Navbar = () => {
 							},
 						})}
 						component='a'
-						href='mailto:hello@viktormelin.com'
+						href='mailto:me@viktormelin.com'
 						onMouseEnter={() => setMailHovered(true)}
 						onMouseLeave={() => setMailHovered(false)}
 					>
@@ -198,7 +200,7 @@ const Navbar = () => {
 								</Text>
 							)}
 						</Transition>
-						hello@viktormelin.com
+						me@viktormelin.com
 					</Text>
 				</Box>
 			) : null}
